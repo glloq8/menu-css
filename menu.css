@@ -1,0 +1,17 @@
+.toggle a.close-menu {
+  display: none;
+}
+
+nav ul {
+  display: none;
+  margin-left: 0;
+}
+nav:target ul {
+  display: block;
+}
+nav:target .open-menu {
+  display: none;
+}
+nav:target .close-menu {
+  display: flex;
+}
